@@ -1,0 +1,28 @@
+{
+  "name": "cricodecs",
+  "version": "1.0.0",
+  "description": "CriWare codecs for Node.js",
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "hca:build": "wasm-pack build --target nodejs --no-pack hca-wasm",
+    "build": "tsc",
+    "test": "pnpm build && node test/index.mjs",
+    "prepare": "pnpm hca:build --release && pnpm build"
+  },
+  "files": [
+    "dist",
+    "hca-wasm/pkg/*.{wasm,d.ts,js}"
+  ],
+  "keywords": ["criware", "acb", "awb", "hca", "audio", "decode"],
+  "author": "LeadRDRK",
+  "license": "ISC",
+  "repository": "github:LeadRDRK/node-cricodecs",
+  "devDependencies": {
+    "@types/node": "^18.19.67",
+    "typescript": "^5.7.2",
+    "wasm-pack": "^0.13.1"
+  }
+}

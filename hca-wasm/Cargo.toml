@@ -1,0 +1,16 @@
+[package]
+name = "hca-wasm"
+version = "1.0.0"
+edition = "2021"
+description = "HCA decoder for cricodecs"
+license = "ISC"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+hound = "3.5"
+wasm-bindgen = "0.2"
+
+[build-dependencies]
+cc = "1.2"
