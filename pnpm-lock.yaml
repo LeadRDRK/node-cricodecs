@@ -12,8 +12,8 @@ importers:
         specifier: ^18.19.67
         version: 18.19.67
       typescript:
-        specifier: ^5.7.2
-        version: 5.7.2
+        specifier: ^5.6.3
+        version: 5.6.3
       wasm-pack:
         specifier: ^0.13.1
         version: 0.13.1
@@ -106,8 +106,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -215,7 +215,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  typescript@5.7.2: {}
+  typescript@5.6.3: {}
 
   undici-types@5.26.5: {}
 
