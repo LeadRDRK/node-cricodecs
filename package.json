@@ -6,6 +6,7 @@
     "node": ">= 18.0.0"
   },
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "hca:build": "wasm-pack build --target nodejs --no-pack hca-wasm",
     "build": "tsc",
